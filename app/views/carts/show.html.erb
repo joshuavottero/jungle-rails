@@ -1,4 +1,8 @@
-<section class="cart-show">
+
+<% if enhanced_cart.length <= 0 %>
+<%= link_to "Alert your cart seems to be empty click here to start shopping ", products_path %>
+<% else %>
+  <section class="cart-show">
 
   <header class="page-header">
     <h1>My Cart</h1>
@@ -49,4 +53,6 @@
     </div>
   </div>
 
-</section>
+  </section>
+
+<% end%>
