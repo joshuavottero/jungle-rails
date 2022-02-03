@@ -1,11 +1,11 @@
 <tr>
   <td>
-    category.name
+    <%= category.name %>
   </td>
   <td>
-    category.date_created
+    <%= category.created_at.strftime("%d/%m/%Y") %>
   </td>
   <td>
-    category.date_updated
+    <%=  category.updated_at.strftime("%d/%m/%Y") %>
   </td>
 </tr>
