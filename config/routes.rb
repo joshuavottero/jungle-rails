@@ -19,6 +19,10 @@ Rails.application.routes.draw do
     resources :products, except: [:edit, :update, :show]
     resources :categories, except: [:edit, :update, :destroy]
   end
+  
+  resources :users, only: [:new, :create]
+
+
 
   
 
