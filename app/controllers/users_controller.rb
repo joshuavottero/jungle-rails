@@ -13,6 +13,8 @@ class UsersController < ApplicationController
     end
   end
 
+  scope :ci_find, lambda  { |attribute, value| where("lower(#{attribute}) = ?", value.downcase).first }
+
   private
 
     def user_params
