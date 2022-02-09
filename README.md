@@ -8,14 +8,34 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 # Screenshots
 
+## Home page
 !["Home page"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/home_page.png)
+
+## Product Details
+!["product details"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/product_show_page.png)
+
+## Products sorted by a category
 !["products sorted by a category"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/sorted_by_category.png)
+
+## Admin can check categories
 !["admin can check categories"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/admin_categories_page.png)
+
+## Admin can create new categories
 !["admin can create new categories"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/admin_category_new_page.png)
+
+## Categories after createing new category
 !["categories after createing new category"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/admin_categories_page_after.png)
+
+## The users cart after adding some items
 !["the users cart after adding some items"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/my_cart_page.png)
-!["after purchased "](https://github.com/joshuavottero/jungle-rails/blob/master/docs/order_page.png)
+
+## After purchased
+!["after purchased"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/order_page.png)
+
+## User loging in
 !["user loging in"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/login_page.png)
+
+## After sign in
 !["after sign in"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/home_page_signed_in.png)
 
 
