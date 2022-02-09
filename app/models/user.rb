@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :password, length: {minimum: 3}
-  def authenticate_with_credentials(email, password)
+  def self.authenticate_with_credentials(email, password)
     striped_email = email.strip
     user = User.where('lower(email) = ?', striped_email.downcase).first
     puts "ref to user #{user}"
