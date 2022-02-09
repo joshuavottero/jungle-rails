@@ -42,15 +42,15 @@
             <li><%= link_to 'Categories',  [:admin, :categories] %></li>
           </ul>
         </li>
+
         <li id="my-cart">
           <%= link_to cart_path do %>
             <%= fa_icon "shopping-cart" %> My Cart (<%= cart.size %>)
           <% end %>
         </li>
         <% if current_user%>
-          <li>
+          <li class="navbar-text">
             Signed in as <%= current_user.email%>
-
           </li>
           <li>
             <%= link_to 'Logout', session_path(current_user.id), method: :delete, disable_with: "Processing..."%>
