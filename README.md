@@ -11,11 +11,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 ## Home page
 !["Home page"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/home_page.png)
 
-## Product Details
-!["product details"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/product_show_page.png)
-
 ## Products sorted by a category
 !["products sorted by a category"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/sorted_by_category.png)
+
+## Product Details
+!["product details"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/product_show_page.png)
 
 ## Admin can check categories
 !["admin can check categories"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/admin_categories_page.png)
