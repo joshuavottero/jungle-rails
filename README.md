@@ -1,6 +1,15 @@
 # Jungle
 
+# Summry
+
+a project done in lighthouse. It was mostly done to emulate a real working environment where we had to implment new features and fixes to inherited code we did not wirte. it was also a chance to learn how to devlope with rails includeing some rails style testing  
+
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+
+# Screenshots
+
+!["Screenshot description"]()
+
 
 ## Additional Steps for Apple M1 Machines
 
@@ -31,3 +40,25 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+* capybara
+* poltergeost
+* database_cleaner
+* respec-rails
+* bcrypt
+* bootstrap-sass
+* font-awesome-rails
+* money-rails
+* carrierwave
+* rmagick
+* stripe
+* faker
+* puma
+* sass-railsxs
+* pg
+* byebug
+* quiet_assets
+* dotenv-rails
+* web-console
+* spring
+* newrelic_rpm
+* rails_12factor
