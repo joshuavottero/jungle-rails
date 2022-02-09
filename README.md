@@ -8,7 +8,18 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 # Screenshots
 
-!["Screenshot description"]()
+!["Home page"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/home_page.png)
+!["products sorted by a category"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/sorted_by_category.png)
+!["admin can check categories"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/admin_categories_page.png)
+!["admin can create new categories"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/admin_category_new_page.png)
+!["categories after createing new category"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/admin_categories_page_after.png)
+!["the users cart after adding some items"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/my_cart_page.png)
+!["after purchased "](https://github.com/joshuavottero/jungle-rails/blob/master/docs/order_page.png)
+!["user loging in"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/login_page.png)
+!["after sign in"](https://github.com/joshuavottero/jungle-rails/blob/master/docs/home_page_signed_in.png)
+
+
+
 
 
 ## Additional Steps for Apple M1 Machines
