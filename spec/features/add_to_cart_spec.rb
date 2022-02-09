@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "Visitor navigates to first product", type: :feature, js: true do
+RSpec.feature "Visitor can add a item to cart", type: :feature, js: true do
 
   #SETUP
   before :each do
@@ -17,19 +17,17 @@ RSpec.feature "Visitor navigates to first product", type: :feature, js: true do
     end
   end
 
-  scenario "They see a product in more detail" do
+  scenario "They see the number of items in the cart change" do
     # ACT
     visit root_path
     
-    click_link("Details", match: :first)
-
-    # sleep is needed here 
-    sleep 1
-
+    click_button("Add", match: :first)
+    
+    cart = find_by_id("my-cart")
     # DEBUG / VERIFY
     save_screenshot
 
-    expect(page).to have_css '.products-show'
+    expect(cart).to have_text 'My Cart (1)'
   end
 
 end
